@@ -399,7 +399,11 @@ color: #000;
     line-height: 150%;
 }
 
-
+.pulsz_cont .small{
+    font-size: 10px;
+    width: 95%;
+    text-align: center;
+}
 
 
 
