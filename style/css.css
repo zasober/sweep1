@@ -3,6 +3,10 @@
     src: url(../font/Poppins-Light.ttf);
 }
 @font-face {
+    font-family: 'pop_b';
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
     font-family: 'carter one';
     src: url(../font/CarterOne-Regular.ttf);
 }
@@ -173,8 +177,13 @@ body,html{
     height: 430px;
     background: #FFFFFF;
     box-shadow: 0px 4.26px 53.26px 0px #788F9C40;
-    border-radius: 20px;
+    border-radius: 32px;
     padding-bottom: 30px;
+}
+.text_pulsz{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
 }
 .pulsz_cont:hover{
     box-shadow: 0px 4px 22.8px 0px #B900FF;
@@ -189,9 +198,9 @@ body,html{
     border-radius: 40px;
 }
 .pulsz_cont h1{
-    font-family: 'poppins';
+    font-family: 'pop_b';
     font-size: 43px;
-    font-weight: 700;
+    font-weight: 900;
     color: #2D3241;
     margin-bottom: 0;
 }
@@ -208,7 +217,7 @@ body,html{
     height: fit-content;
 }
 .pulsz_cont h3{
-    font-family: 'poppins';
+    font-family: 'pop_b';
     font-size: 23px;
     font-weight: 700;
     color: #2D3241;
@@ -403,6 +412,7 @@ color: #000;
     font-size: 10px;
     width: 95%;
     text-align: center;
+    height: 40px;
 }
 
 
