@@ -1,0 +1,498 @@
+@font-face {
+    font-family: 'poppins';
+    src: url(../font/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: 'carter one';
+    src: url(../font/CarterOne-Regular.ttf);
+}
+@font-face {
+    font-family: 'montserrat';
+    src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+body,html{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.top_blokc{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top_blokc p{
+    width: 55%;
+    font-size: 9px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 150%;
+    text-align: center;
+    font-family: 'poppins';
+    margin-top: 15px;
+}
+.top_cont{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.top_cont img{
+    width: 178px;
+    height: fit-content;
+}
+.top_text{
+    display: flex;
+}
+.top_text a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'poppins';
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.best{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.big_fon{
+    background: url(../img/fon-1.png);
+    background-size: cover;
+    background-position-y: bottom;
+}
+.best_blokc{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.best_cont{
+    display: flex;
+    flex-direction: column;
+    width: 37%;
+}
+.best_cont h1{
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'carter one';
+    line-height: 120%;
+}
+.best_cont h1 span{
+    font-size: 35px;
+}
+.best_cont h5{
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'montserrat';
+}
+.best_cont h5 span{
+    font-weight: 400;
+}
+.best_blokc img{
+    width:700px;
+    height: fit-content;
+}
+.best_cont p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'montserrat';
+    margin-top: 0;
+    line-height: 150%;
+}
+.best_text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 260px;
+    margin-right: -110px;
+}
+.best_text h3{
+    width: 180px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(241, 250, 255, 0.7) 100%);
+    box-shadow: 0px 24.6px 49.19px 0px #FFFFFF26;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #673189;
+    font-family: 'montserrat';
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.best_text h4{
+    width: 326px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.7) 0%, rgba(241, 250, 255, 0.7) 100%);
+    box-shadow: 0px 24.6px 49.19px 0px #FFFFFF26;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #673189;
+    font-family: 'montserrat';
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.pulsz{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+}
+.pulsz_blokc{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.pulsz_cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 30%;
+    height: 430px;
+    background: #FFFFFF;
+    box-shadow: 0px 4.26px 53.26px 0px #788F9C40;
+    border-radius: 20px;
+    padding-bottom: 30px;
+}
+.pulsz_cont:hover{
+    box-shadow: 0px 4px 22.8px 0px #B900FF;
+
+}
+
+.pulsz_cont .top_img{
+    width: 270px;
+    height: fit-content;
+    margin-top: -50px;
+    box-shadow: 0px 3px 17px 0px #788f9cb6;
+    border-radius: 40px;
+}
+.pulsz_cont h1{
+    font-family: 'poppins';
+    font-size: 43px;
+    font-weight: 700;
+    color: #2D3241;
+    margin-bottom: 0;
+}
+.pulsz_cont h2{
+    font-family: 'poppins';
+    font-size: 21px;
+    font-weight: 500;
+    color: #2D3241;
+    margin-bottom: 0;
+    margin-top: 0px;
+}
+.pulsz_cont img{
+    width: 114px;
+    height: fit-content;
+}
+.pulsz_cont h3{
+    font-family: 'poppins';
+    font-size: 23px;
+    font-weight: 700;
+    color: #2D3241;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.pulsz_cont p{
+    font-family: 'poppins';
+    font-size: 23px;
+    font-weight: 400;
+    color: #2D3241;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.pulsz_cont h4{
+    font-family: 'poppins';
+    font-size: 23px;
+    font-weight: 400;
+    color: #2D3241;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.pulsz_cont a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 205px;
+    height: 42px;
+    background: linear-gradient(90deg, #E787FB 0%, #8783D3 100%);
+    box-shadow: 0px 10.65px 26.63px 0px #AD70FB73;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-family: 'montserrat';
+    text-decoration: none;
+}
+.pulsz_cont a:hover{
+ border: 1px solid #fff;
+box-shadow: 0px 0px 12.4px 0px #9D3AFF;
+
+}
+.text_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.text_block{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.text_block h1{
+    font-family: 'montserrat';
+font-size: 30px;
+font-weight: 700;
+text-align: left;
+color: #000;
+margin-bottom: 0px;
+}
+.text_block p{
+    font-family: 'montserrat';
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+text-align: left;
+color: #000;
+}
+.privacy_text p{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.privacy_text h2{
+    font-family: 'montserrat';
+    font-size: 26px;
+    color: #000;
+}
+.privacy_text h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.pulsz_blokc h5{
+    font-size: 11px;
+    font-weight: 700;
+    color: #000;
+    font-family: 'montserrat';
+}
+.text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #f4f4f4;
+}
+.text h5{
+    font-size: 11px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'montserrat';
+    margin-bottom: 70px;
+}
+.sweepstakes{
+    width: 100%;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+}
+.sweepstakes_blokc{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.sweepstakes_blokc h1{
+    font-size: 36px;
+    font-weight: 500;
+    color: #000;
+    font-family: 'montserrat';
+}
+.sweepstakes_blokc p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: 'montserrat';
+}
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #150042D6;
+}
+.about_blokc{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.about_blokc_1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.about_blokc_1 a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'poppins';
+    text-decoration: none;
+    border-right: 2px solid #7c6e92;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.about_blokc_1 p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: 'poppins';
+    text-decoration: none;
+    padding-left: 10px;
+}
+.about_blokc_1 img{
+    width: 49px;
+    height: fit-content;
+    padding-left: 10px;
+}
+.about_blokc_1 span{
+    text-decoration: underline;
+
+}
+.must{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: #150042D6;
+}
+.must h3{
+    width: 70%;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: 'montserrat';
+    line-height: 150%;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 900px){
+    .top_blokc p{
+        width: 90%;
+        margin-top: 55px;
+        font-size: 8px;
+    }
+    .top_cont{
+        flex-direction: column;
+        align-items: center;
+    }
+    .best{
+        margin-top: -1px;
+    }
+    .top_text{
+        margin-top: 20px;
+    }
+    .best_blokc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .best_cont{
+        width: 90%;
+    }
+    .best_cont h1{
+        text-align: center;
+        font-size: 40px;
+    }
+    .best_cont p{
+        text-align: center;
+    }
+    .best_cont h5{
+        text-align: center;
+    }
+    .big_fon{
+        background: url(../img/mob-fon.png);
+        background-size: cover;
+    }
+  
+    .best_text{
+        margin-top: 50px;
+        margin-right: -2.5%;
+        width: 100%;
+        align-items: end;
+    }
+    .best_blokc img{
+        width: 95%;
+    }
+    .pulsz_blokc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pulsz_cont{
+        width: 90%;
+        margin-top: 65px;
+    }
+    .text h5{
+        margin-top: 30px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .sweepstakes_blokc h1{
+        text-align: center;
+    }
+    .sweepstakes_blokc p{
+        text-align: center;
+    }
+    .about_blokc{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_blokc_1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .must h3 {
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .sweepstakes_blokc {
+        width: 70%;
+    }
+    .about_blokc_1 p{
+        font-size: 15px;
+    }
+    .about_blokc_1 a{
+        font-size: 12px;
+    }
+
+
+}
